@@ -2,7 +2,7 @@ const axios = require('axios');
 const cron = require('node-cron');
 require('dotenv').config();
 
-cron.schedule('*/5 */12 * * *', async () => {
+cron.schedule('* */13 * * *', async () => {
   try {
     await axios.post(process.env.XCH_FAUCET, {
       xch_wallet: process.env.XCH_WALLET,
