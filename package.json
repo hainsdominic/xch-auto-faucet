@@ -1,0 +1,17 @@
+{
+  "name": "xch-auto-faucet",
+  "version": "1.0.0",
+  "description": "Automatcally send request to the xch faucet.",
+  "main": "index.js",
+  "author": "hainsdominic",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0"
+  }
+}
